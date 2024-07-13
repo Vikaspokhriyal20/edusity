@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arya , calibri;
+}
+
+a
+{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+li
+{
+  list-style: none;
+}
+
+.container
+{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn
+{
+  background-color: #fff;
+  padding: 0.4rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.btn.dark-btn
+{
+  background: #212ea0;
+  color: #fff;
+}
