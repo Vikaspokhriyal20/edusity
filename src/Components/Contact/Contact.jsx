@@ -25,11 +25,17 @@ const Contact = () => {
       console.log("Error", data);
       setResult(data.message);
     }
+    
+  setTimeout(() => {
+    setResult('');
+  }, 5000);
+    
   };
+
   return (
     <div className='contact'>
       <div className="contact-col">
-        <h3>Send us message <i class="fa-solid fa-envelope"></i> </h3>
+        <h3>Send us message <i className="fa-solid fa-envelope"></i> </h3>
         <p>
           Feel free to reach out through contact form or find our contact
           information below. Your feedback , questions, and suggestions are
@@ -37,9 +43,9 @@ const Contact = () => {
           university community.
         </p>
         <ul>
-          <li><i class="fa-solid fa-phone-volume"></i> +91 9698874525</li>
-          <li><i class="fa-solid fa-square-envelope"></i> contact@vikas.dev</li>
-          <li><i class="fa-solid fa-location-dot"></i> sector - 75 phase-8 Mohali , (Punjab) </li>
+          <li><i className="fa-solid fa-phone-volume"></i> +91 9698874525</li>
+          <li><i className="fa-solid fa-square-envelope"></i> contact@vikas.dev</li>
+          <li><i className="fa-solid fa-location-dot"></i> sector - 75 phase-8 Mohali , (Punjab) </li>
         </ul>
       </div>
       <div className="contact-col">

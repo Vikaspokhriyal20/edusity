@@ -38,8 +38,8 @@ li
 
 .btn.dark-btn
 {
-  background: #212ea0;
-  color: #fff;
+  background: violet;
+  color: #000;
 }
 
 @media screen and (max-width:1000px) {
