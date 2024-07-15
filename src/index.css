@@ -34,12 +34,15 @@ li
   border: none;
   outline: none;
   border-radius: 5px;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .btn.dark-btn
 {
-  background: violet;
-  color: #000;
+  background: #000;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width:1000px) {
